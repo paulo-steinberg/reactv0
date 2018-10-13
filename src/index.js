@@ -1,5 +1,7 @@
 /* jshint esversion: 6 */
-import react from "react";
-import reactDOM from "react-dom";
+import React from "react";
+import ReactDOM from "react-dom";
 
-const element = 
+const element = <h1> Hello World</h1>;
+
+ReactDOM.render(element, document.getElementById("root"));
